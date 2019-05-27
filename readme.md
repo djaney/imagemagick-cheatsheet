@@ -1,4 +1,4 @@
-#### Remove noise by stacking images and finding median
+#### Remove noise (or people) by stacking images and finding median
 `convert $(ls) -evaluate-sequence median out.jpg`
 
 #### Resize all images in a folder
